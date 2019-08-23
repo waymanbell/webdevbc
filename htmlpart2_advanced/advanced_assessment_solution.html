@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Sign Up</title>
+    </head>
+    <body>
+        <h1>Course Sign Up Page</h1>
+        <p>Please Note: All text fields required</p>
+
+        <form action="http://www.python.org" method="get">
+            <!--Gather names on one line-->
+            <label for="fn">First Name:</label>
+            <input id="fn" type="text" name="" placeholder="First Name" required>
+            <label for="ln">Last Name:</label>
+            <input id="ln" type="text" name="" placeholder="Last Name" required>
+
+            <p></p>
+            <!--Gather email and password on one line-->
+            <label for="mail">Email:</label>
+            <input id="mail" type="email" placeholder="example@email.com" required>
+
+            <label for="pw">Password:</label>
+            <input id="pw" type="password" required>
+
+            <!--Ask age, radio buttons on separate line-->
+            <p>Are you over 18?</p>
+            <label for="y">Yes</label>
+            <input id="y" type="radio" name="overunder">
+            <label for="n">No</label>
+            <input id="n" type="radio" name="overunder">
+
+            <!--Get monetary account type via selection-->
+            <p>Do you have a Credit Card or PayPal?</p>
+            <select name="payment">
+                <option value="cc">Credit Card</option>
+                <option value="pp">PayPal</option>
+            </select>
+
+            <p></p>
+            <!--Add Submit button-->
+            <input type="submit" value="Sign Up!">
+        </form>
+    </body>
+</html>
