@@ -1,0 +1,30 @@
+/* A comment */
+/*Typing text and then using Ctrl+/ will auto-comment that line.*/
+
+/*selected tag{
+    property: value;
+}*/
+
+/*Picking a color by name*/
+h1 {
+    color: aqua;
+}
+
+/*picking a color by rgb*/
+li {
+    /*color: green;*/
+    color: rgb(8, 84, 1);
+}
+
+/*picking a color by hex*/
+p {
+    color: #0895a8;
+}
+
+/*How to use a transparent color
+0 = Fully Transparent
+1 = Fully opaque*/
+h4 {
+    color: rgba(255, 97, 0, 0.5)
+}
+
