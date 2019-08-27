@@ -1,0 +1,19 @@
+body {
+    background: url(https://cdn.mos.cms.futurecdn.net/pAWXMnvfQPyfdthf6ZeUaM-320-80.jpg);
+    background-repeat: repeat;
+}
+
+div {
+    background-color: blue;
+    border-color: orange;
+    border-width: 20px;
+    border-style: dashed;
+}
+
+p {
+    color: yellow;
+}
+
+span {
+    background-color: yellowgreen;
+}
